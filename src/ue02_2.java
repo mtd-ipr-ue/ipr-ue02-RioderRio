@@ -16,7 +16,7 @@ public class ue02_2 {
             case 2:
             if (Jahreszahl % 4 == 0) {
                 if (Jahreszahl % 100 == 0) {
-                    if (Jahreszahl % 400 == 00) {
+                    if (Jahreszahl % 400 == 0) {
                         Out.print("Monat hat 29 Tage");
                     }
                     else {
