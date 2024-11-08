@@ -19,7 +19,7 @@ public class ue02_3 {
 
         
         if (xAchse >= 0 && yAchse >= 0) {
-            9            if (Math.pow(xAchse, 2) + Math.pow(yAchse, 2) <= Math.pow(radius, 2)) {
+           if (Math.pow(xAchse, 2) + Math.pow(yAchse, 2) <= Math.pow(radius, 2)) {
                 System.out.println("Der Punkt liegt innerhalb der grünen Fläche.");
             } else {
                 System.out.println("Der Punkt liegt außerhalb des Kreises.");
